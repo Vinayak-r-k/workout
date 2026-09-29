@@ -1,0 +1,249 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px 40px 40px;
+    
+}
+.section1{
+background-image: url(gym.jpg);
+background-size: 100vw;
+background-repeat: no-repeat;
+
+
+width: 100vw;
+
+padding-bottom: 100px;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: none;
+}
+.title p{
+    color: red;
+    font-size: 50px;
+}
+.title a{
+    padding-right: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.title a:hover{
+    color: red;
+}
+.content{
+
+    margin-top: 300px;
+
+    text-align: center;
+}
+.content h4{
+    color: grey;
+}
+.content h2{
+    color: white;
+    font-size: 40px;
+}
+.started h5{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.started{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.started button{
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    padding: 10px 20px;
+}
+.started button:hover{
+    background-color: red;
+    color: white;
+}
+.section2{
+    background-color: black;
+    
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding: 100px;
+}
+.section2 h2,h6,h1 {
+    color: white;
+    margin-bottom: 20px;
+
+}
+.left{
+    width: 50%;
+    padding-left:300px;
+    text-align: left;
+    
+    border-right: 1px solid white;
+    padding-right: 40px;
+    
+}
+.left h2,h1{
+    font-size: 40px;
+
+}
+.left button{
+    
+color:black;
+    background-color: red;
+    border: none;
+    padding: 10px; 
+    width: 500px;
+    margin-top: 10px;
+}
+.left button:hover{
+    color:black;
+    background-color:  rgb(116, 19, 19);
+    
+}
+.right{
+    width: 50%;
+    text-align: left;
+    margin-left: 100px;
+}
+.section3 img{
+    height: 250px;
+    width:100%;
+
+}
+.section3{
+    background-color: rgb(254, 247, 231);
+    padding-top: 80px;
+}
+.section3 h5,h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    
+}
+.card {
+    margin-right: 70px;
+    background-color: white;
+    border-radius: 10px;
+}
+.card h6{
+    color: black;
+}
+.price{
+    display: flex;
+}
+.price h6{
+    margin-left: 150px;
+    border-radius: 100%;
+    background-color: red;
+    padding:10px;
+    font-size: 20px;
+
+}
+.price h5{
+    align-content: center;
+}
+.section4{
+    background-color: black;
+    text-align: center;
+    padding-top:100px ;
+    padding-bottom: 100px;
+}
+table{
+    width: 1500px;
+}
+
+table th,td{
+    color: white;
+    border: 0.5px solid rgb(175, 172, 172);
+    padding: 20px;
+}
+table th{
+    background-color: rgb(243, 33, 9);
+}
+.section4 table{
+    border-collapse:collapse ;
+    margin: auto;
+}
+
+.section4{
+    color: white;
+}
+.section4 h4{
+    color: grey;
+}
+tr :nth-child(1){
+    background-color: rgb(243, 33, 9);
+}
+
+
+th:hover{
+    background-color: rgb(176, 20, 3);
+    
+}
+td:hover{
+    background-color: rgb(28, 28, 48);
+    
+}
+tr :nth-child(1):hover{
+    background-color: rgb(176, 20, 3);
+}
+.section5{
+    display: flex;
+    
+    padding-top: 100px;
+    
+
+}
+.message{
+    width:50%;
+    margin-left: 200px;
+    margin-right: 30px;
+    text-align: right;
+}
+.maps{
+    width: 50%;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+
+.section5 h1{
+    color: black;
+    font-size: 30px;
+    margin-right: 140px;
+    
+}
+input,textarea{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.section5 button{
+    width: 400px;
+    color:black;
+    background-color: red;
+    padding: 20px;
+}
+.section5 button:hover{
+    background-color: brown;
+}
+.section5 iframe{
+    height: 300px;
+    width: 600px;
+}
+form{
+    width: 410px;
+    margin-left: 480px;
+}
